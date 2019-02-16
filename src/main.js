@@ -3,8 +3,8 @@
 import Vue from 'vue'
 import ElementUI from 'element-ui';
 import $ from 'jquery'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.min.js';
 // import './assets/bootstrap/css/bootstrap.css';
 // import './assets/bootstrap/js/bootstrap.js';
 // ./layui/css/layui.css
@@ -39,7 +39,7 @@ router.beforeEach((to, from, next) => {
       }
   }
 })
-
+console.log(zgl)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

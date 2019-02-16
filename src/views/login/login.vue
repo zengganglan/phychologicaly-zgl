@@ -248,7 +248,9 @@ export default {
        },
        goindex(){
          console.log("xuesheng")
-         this.$router.push("/studentindex/studentschool")
+        //  this.$router.push("/studentindex/studentschool")
+         this.$router.push("/teacherindex/teacherschool")
+
        }
   }
 };
