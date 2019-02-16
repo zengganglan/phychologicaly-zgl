@@ -39,7 +39,7 @@ router.beforeEach((to, from, next) => {
       }
   }
 })
-console.log(zgl)
+console.log("zgl11")
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
